@@ -24,9 +24,6 @@ struct Args {
     auto_portals: bool,
 }
 
-//These elements have special cases within the randomizer - knowing when they're used is important.
-
-
 fn main() {
     let args = Args::parse();
 
